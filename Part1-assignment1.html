@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>A Simple Page</title>
+<script language="JavaScript">
+function calcArea(){
+    inpRadius = 3;
+    alert(Math.PI * ((inpRadius)*(inpRadius)));
+}
+
+function calcPeri()
+{
+    inpRadius = 3;
+    alert(2 * Math.PI * (inpRadius));
+}
+
+function calcVol()
+{
+    inpRadius = 3;
+    alert(Math.PI * ((inpRadius)*(inpRadius)*(inpRadius)) * (4/3));
+}
+</script>
+</head>
+<body>
+<table align="center" bgcolor="blue">
+<tr><td>
+<input type="button" value="Calculate circle area" onclick="calcArea();"> </td>
+<td>
+<input type="button" value="Calculate circle Peri" onclick="calcPeri();">
+</td>
+<td>
+<input type="button" value="Calculate sphere volume" onclick="calcVol();">
+</td>
+</tr>
+</table>
+</body>
+</html>
